@@ -34,11 +34,9 @@ If you run the stream lit comment it will automatically redirect you to the stre
 1. **Install docker if it is not installed locally**
    Link to install docker - https://docs.docker.com/desktop/install/windows-install/ (For windows) intsall as per your OS
 2. **To set up the container**
-   2.1. **To build the image:**
     ```bash
     docker build -t mobilesamapi .
     ```
-   2.2**To build container:**
     ```bash
     docker run -d --name sam -p 8000:8000 mobilesamapi
     ```
