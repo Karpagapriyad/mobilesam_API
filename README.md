@@ -46,19 +46,23 @@ If you run the stream lit comment it will automatically redirect you to the stre
     ```bash
     sudo docker ps
     ```
-     ```bash
+    
+    ```bash
     sudo docker ps -a
     ```
   ***To start, stop, restart, and remove the container: use either container ID or container name***
     ```bash
     sudo docker start "container ID or container name"
     ```
+    
     ```bash
     sudo docker stop "container ID or container name"
     ```
+    
     ```bash
     sudo docker restart "container ID or container name"
     ```
+    
     ```bash
     sudo docker rm "container ID or container name"
     ```
