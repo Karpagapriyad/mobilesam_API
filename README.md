@@ -34,35 +34,31 @@ If you run the stream lit comment it will automatically redirect you to the stre
 1. **Install docker if it is not installed locally**
    Link to install docker - https://docs.docker.com/desktop/install/windows-install/ (For windows) intsall as per your OS
 2. **To set up the container**
-   **To build the image:**
+   2.1. **To build the image:**
     ```bash
     docker build -t mobilesamapi .
     ```
-  **To build container:**
+   2.2**To build container:**
     ```bash
     docker run -d --name sam -p 8000:8000 mobilesamapi
     ```
-  **To check the conatiner running / all the containers:**
+3. **To check the conatiner running / all the containers:**
     ```bash
     sudo docker ps
     ```
-    
     ```bash
     sudo docker ps -a
     ```
-  **To start, stop, restart, and remove the container: use either container ID or container name**
+ 4. **To start, stop, restart, and remove the container: use either container ID or container name**
     ```bash
     sudo docker start "container ID or container name"
     ```				
-    
     ```bash
     sudo docker stop "container ID or container name"
     ```
-    
     ```bash
     sudo docker restart "container ID or container name"
     ```
-    
     ```bash
     sudo docker rm "container ID or container name"
     ```
