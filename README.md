@@ -32,8 +32,8 @@ If you run the stream lit comment it will automatically redirect you to the stre
 ## How to run the code containersation
 
 1. **Install docker if it is not installed locally**
-   Link to install docker - https://docs.docker.com/desktop/install/windows-install/ (For windows) intsall as per your OS
-2. **To set up the container**
+   Link to install docker - https://docs.docker.com/desktop/install/mac-install/ (For MacOS) intsall as per your OS
+2. **To built the container**
     ```bash
     docker build -t mobilesamapi .
     ```
