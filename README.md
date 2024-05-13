@@ -38,11 +38,11 @@ If you run the stream lit comment it will automatically redirect you to the stre
     ```bash
     docker build -t mobilesamapi .
     ```
- ***To build container:***
+ **To build container:**
     ```bash
     docker run -d --name sam -p 8000:8000 mobilesamapi
     ```
-  ***To check the conatiner running / all the containers:***
+  **To check the conatiner running / all the containers:**
     ```bash
     sudo docker ps
     ```
@@ -50,10 +50,10 @@ If you run the stream lit comment it will automatically redirect you to the stre
     ```bash
     sudo docker ps -a
     ```
-  ***To start, stop, restart, and remove the container: use either container ID or container name***
+  **To start, stop, restart, and remove the container: use either container ID or container name**
     ```bash
     sudo docker start "container ID or container name"
-    ```
+    ```				
     
     ```bash
     sudo docker stop "container ID or container name"
@@ -66,7 +66,7 @@ If you run the stream lit comment it will automatically redirect you to the stre
     ```bash
     sudo docker rm "container ID or container name"
     ```
-***To access the service built the image and container and use  "http://0.0.0.0:8000/docs" to access API.***
+**To access the service built the image and container and use  "http://0.0.0.0:8000/docs" to access API.**
     
    
    
